@@ -1,3 +1,8 @@
+:root {
+  --yellow: rgb(216, 186, 88);
+  --blue: rgb(20,154,185);
+}
+
 body {
   box-sizing: border-box;
   height: 100vh; 
@@ -18,7 +23,7 @@ details {
   text-transform: normal;
   font-size: 0.9rem;
   height: 30px;
-  color: #ffc600;
+  color: var(--yellow);
   font-size: 0.6rem;
   text-shadow: 0 0 5px black;
 }
@@ -55,8 +60,8 @@ summary {
 
 .playing {
   transform: scale(1,1);
-  border-color: rgb(20,154,185);
-  box-shadow: 0 0 10px rgb(20,154,185);
+  border-color: var(--blue);
+  box-shadow: 0 0 10px var(--blue);
 }
 
 kbd {
@@ -65,11 +70,11 @@ kbd {
 
 span {
   font-size: 0.8rem;
-  color: rgb(216, 186, 88);
+  color: var(--yellow);
 }
 
 a {
-  color: rgb(20,154,185);
+  color: var(--blue);
 }
 
 @media (min-width: 600px) {
