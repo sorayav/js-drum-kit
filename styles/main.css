@@ -54,12 +54,12 @@ summary {
   margin: 0.5rem;
   background-color: rgba(65, 62, 62, 0.7);
   text-shadow: 0 0 5px black;
-  transition: all 0.07s;
+  transition: all .07s;
   border-radius: 5px;
 }
 
 .playing {
-  transform: scale(1,1);
+  transform: scale(1.1);
   border-color: var(--blue);
   box-shadow: 0 0 10px var(--blue);
 }
